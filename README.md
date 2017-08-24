@@ -1,3 +1,5 @@
-# Java-Net
-Học Java Lập trình mạng
-#1.Mục Lục
+# Java net
+Học lập trình mạng
+# Mục lục
+1. Lớp InetAddress
+2. Lớp Socket
