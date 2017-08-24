@@ -20,11 +20,15 @@ public class AddrLookupApp {
         try {
             //Lấy đối tượng InetAddress chứa thông tin máy chủ.
             InetAddress host = InetAddress.getByName("www.google.com");
+            InetAddress[] hostArray = InetAddress.getAllByName("www.google.com");
             //Lấy tên Server nếu có
             String hostName = host.getHostName();
             //In các thông tin ra màn hình
             System.out.println("Host Name: " +hostName);
             System.out.println("IP address: " + host.getHostAddress());
+            for(int i = 0; i < hostArray.length; i++){
+                 System.out.println("InetAddress[]:" +hostArray[i]);
+            }
         } catch (UnknownHostException e) {
             System.out.println("Address not found: " + e.getMessage());
         }
