@@ -24,13 +24,3 @@ Học lập trình mạng
   <li>InetAddress[]:www.google.com/74.125.200.106</li>
   <li>InetAddress[]:www.google.com/74.125.200.103</li>
   </ul>
-- Gạch đầu dòng thứ nhất
-  <ul>
-  <li>Thụt với đầu dòng 1</li>
-  <li>Thụt với đầu dòng 1</li>
-  </ul>
-- Gạch đầu dòng thứ hai
-  <ul>
-  <li>Thụt với đầu dòng 2</li>
-  <li>Thụt với đầu dòng 2</li>
-  </ul>
